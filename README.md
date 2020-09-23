@@ -15,6 +15,10 @@ This project was carried out with utmost carefulness to make the clone resemble 
 - Font Awesome
 - reset.css
 
+## Live Demo
+
+[Live Demo Link](https://rawcdn.githack.com/cyonii/backgrounds-and-gradients/b8f0b37e78e76f09ad4a876d0dd646fcd4dd953a/index.html)
+
 
 ## Getting Started
 
