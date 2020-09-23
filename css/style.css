@@ -83,3 +83,11 @@ body {}
 .play-film:active {
   text-decoration: underline;
 }
+/* thumb-nail-images */
+.thumb-images{
+   display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
+.thumb-images img {
+    width: 100%;
+}
