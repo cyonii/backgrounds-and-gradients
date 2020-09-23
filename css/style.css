@@ -107,7 +107,7 @@ footer p {
   text-decoration: underline;
 }
 
-/* thumb-nail-images */
+/* Post images */
 .thumb-images {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
