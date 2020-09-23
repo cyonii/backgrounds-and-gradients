@@ -39,10 +39,12 @@ footer p {
   background-position: bottom;
 }
 
-.jumbotron-header {
-  font-size: 60px;
-  font-weight: lighter !important;
-  color: #fff;
+.jumbotron-title {
+  width: 1000px;
+}
+
+.jumbotron-subtitle {
+  width: 900px;
 }
 
 .header-nav {
