@@ -91,3 +91,21 @@ body {}
 .thumb-images img {
     width: 100%;
 }
+.footer-section {
+    width: 0 auto;
+    display: block;
+    justify-content: space-between;
+}
+.flex{
+    display: flex;
+    width: 0 aut0;
+    font-size: 10px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+}
+
+.flex span {
+  font-size: 10px;  
+  text-align: left;
+}
