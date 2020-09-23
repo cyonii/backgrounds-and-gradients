@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  background-color: #fff;
+}
+
+/* Footer */
+footer {
+  padding: 2rem 10rem;
+  font-size: 10px;
+}
+
+footer a,
+footer a:visited {
+  padding-right: 5px;
+  color: #08c;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer p {
+  display: flex;
+  align-items: center;
+}
+
+/* Jumbotron */
+.jumbotron {
+  height: 540px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(https://web.archive.org/web/20140228114747im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg);
+  background-position: bottom;
+}
+
+.jumbotron-title {
+  width: 1000px;
+}
+
+.jumbotron-subtitle {
+  width: 900px;
+}
+
+.header-nav {
+  display: flex;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+
+.header-nav .nav-item {
+  color: #fff;
+  padding: 0.4rem 2rem;
+  text-decoration: none;
+  background-image: linear-gradient(#6a6a6a 50%, #807c7c 50%);
+  font-size: 14px;
+  line-height: 18px;
+  border: 1px solid #505050;
+}
+
+.header-nav .nav-item:first-child {
+  border-radius: 3px 0 0 3px;
+  font-size: 22px;
+}
+
+.header-nav .nav-item:last-child {
+  border-radius: 0 3px 3px 0;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.header-nav .nav-item:not(:last-child):hover {
+  background-image: linear-gradient(#454545 50%, #5c5959 50%);
+}
+
+.form-control {
+  padding: 2px 10px;
+  border-radius: 20px;
+  background-color: inherit;
+  outline: 1px #000;
+  width: 100px;
+  animation: all 3s;
+}
+
+.form-control:focus {
+  outline: inherit;
+  width: 120px;
+  background-color: #fff;
+}
+
+.play-film {
+  font-size: 26px;
+  font-family: sans-serif;
+  font-weight: lighter;
+  text-decoration: none;
+  color: #fff;
+  margin-top: 2rem;
+}
+
+.play-film:hover,
+.play-film:active {
+  text-decoration: underline;
+}
+
+/* Post images */
+.thumb-images {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.thumb-images img {
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.8rem;
+}
+
+.flex nav a:not(:last-child) {
+  border-right: 1px solid #807c7c;
+}
